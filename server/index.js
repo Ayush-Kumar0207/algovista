@@ -9,12 +9,19 @@ const app = express();
 const connectDB = require('./config/db');
 connectDB();
 
-const corsOptions = {
-  origin: ["https://algovista10.netlify.app"],
-  credentials: true,
-};
+// Allow both localhost and Netlify frontend
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://algovista10.netlify.app",
+];
 
-app.use(cors(corsOptions));
+app.use(
+  cors({
+    origin: allowedOrigins,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
