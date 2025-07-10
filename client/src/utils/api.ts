@@ -2,8 +2,8 @@ import axios from "axios";
 
 // Create a new Axios instance
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // ✅ Your backend base URL
-  withCredentials: false, // Set to true if using cookies for auth
+  baseURL: import.meta.env.VITE_API_BASE_URL, // ✅ Your backend base URL
+  withCredentials: true, // Set to true if using cookies for auth
   headers: {
     "Content-Type": "application/json",
   },

@@ -32,6 +32,6 @@ app.use("/api/ai", require("./routes/ai"));
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
-    app.listen(5000, () => console.log("Server running on port 5000"));
+    app.listen(5000 , () => console.log("Server running on port 5000"));
   })
   .catch(err => console.log(err));
