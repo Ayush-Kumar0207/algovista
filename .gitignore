@@ -1,8 +1,9 @@
-# Inside server/.gitignore
-.env
+# .gitignore (root)
 
+# Ignore server env file only
+server/.env
 
+# Ignore folders and system files
 node_modules/
 dist/
-.env
 .DS_Store
