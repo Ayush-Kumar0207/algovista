@@ -9,7 +9,13 @@ const app = express();
 const connectDB = require('./config/db');
 connectDB();
 
-app.use(cors());
+const corsOptions = {
+  origin: ["https://algovista10.netlify.app"],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
