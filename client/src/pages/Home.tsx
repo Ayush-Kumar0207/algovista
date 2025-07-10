@@ -65,44 +65,45 @@ const Home = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground font-sans">
-      <div className="absolute top-4 right-4 z-50">
-        <AlertDialog>
-          <AlertDialogTrigger asChild>
-            <Button
-              variant="destructive"
-              className="px-6 py-2 text-sm font-semibold shadow-lg hover:bg-red-600 transition rounded-lg"
-            >
-              Logout
-            </Button>
-          </AlertDialogTrigger>
-
-          <AlertDialogContent className="max-w-sm">
-            <AlertDialogHeader>
-              <AlertDialogTitle className="text-lg">
-                Are you sure you want to logout?
-              </AlertDialogTitle>
-              <AlertDialogDescription className="text-sm text-gray-600">
-                This will end your current session and take you back to the login screen.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-
-            <AlertDialogFooter>
-              <AlertDialogCancel className="rounded-md">Cancel</AlertDialogCancel>
-              <AlertDialogAction
-                className="bg-red-500 text-white hover:bg-red-600 rounded-md"
-                onClick={() => {
-                  logout();
-                  toast.success("Logged out successfully");
-                  navigate("/login");
-                }}
+      {user && (
+        <div className="absolute top-4 right-4 z-50">
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button
+                variant="destructive"
+                className="px-6 py-2 text-sm font-semibold shadow-lg hover:bg-red-600 transition rounded-lg"
               >
-                Yes, Logout
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
-      </div>
+                Logout
+              </Button>
+            </AlertDialogTrigger>
 
+            <AlertDialogContent className="max-w-sm">
+              <AlertDialogHeader>
+                <AlertDialogTitle className="text-lg">
+                  Are you sure you want to logout?
+                </AlertDialogTitle>
+                <AlertDialogDescription className="text-sm text-gray-600">
+                  This will end your current session and take you back to the login screen.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+
+              <AlertDialogFooter>
+                <AlertDialogCancel className="rounded-md">Cancel</AlertDialogCancel>
+                <AlertDialogAction
+                  className="bg-red-500 text-white hover:bg-red-600 rounded-md"
+                  onClick={() => {
+                    logout();
+                    toast.success("Logged out successfully");
+                    navigate("/login");
+                  }}
+                >
+                  Yes, Logout
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
+        </div>
+      )}
 
       {/* Hero Section */}
       <header className="relative bg-gradient-to-br from-blue-800 via-sky-700 to-cyan-600 text-white py-24 px-6 text-center shadow-inner">
