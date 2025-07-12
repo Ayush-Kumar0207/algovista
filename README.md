@@ -9,7 +9,7 @@
 
 ## 🔗 Live Demo
 
-🌐 [Try AlgoVista Live](https://algovista10.netlify.app/) *(Update with actual link)*
+🌐 [Try AlgoVista Live](https://algovista10.netlify.app/)
 
 ## 📂 Overview
 
