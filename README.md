@@ -17,8 +17,8 @@ AlgoVista is a full-stack web application that empowers developers to **visualiz
 ![Dashboard](<img width="944" height="418" alt="Image" src="https://github.com/user-attachments/assets/8a21c022-80aa-40c5-b472-0364727f5b4e" />)
 
 ### 📈 DSA Visualizer (Graphs, Sorting, Trees and more to be added)
-![Visualizer](<img width="933" height="489" alt="Image" src="https://github.com/user-attachments/assets/e74b96ba-50a9-40c8-9125-1ac84823bed6" />)
-[](<img width="914" height="482" alt="Image" src="https://github.com/user-attachments/assets/85079816-06f8-4e51-9336-151765a8e3be" />)
+![Visualizer_Preview1](<img width="933" height="489" alt="Image" src="https://github.com/user-attachments/assets/e74b96ba-50a9-40c8-9125-1ac84823bed6" />)
+![Visualizer_Preview2](<img width="914" height="482" alt="Image" src="https://github.com/user-attachments/assets/85079816-06f8-4e51-9336-151765a8e3be" />)
 
 ### 🤖 AI Coach & Sync Panel
 ![AI Coach_Preview1](<img width="932" height="477" alt="Image" src="https://github.com/user-attachments/assets/61e0af52-c853-4329-8bfb-cb56cc6869d1" />)
