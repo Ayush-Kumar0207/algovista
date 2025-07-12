@@ -14,7 +14,7 @@ AlgoVista is a full-stack web application that empowers developers to **visualiz
 ## ✨ Preview
 
 ### 🧠 Personalized Dashboard
-![Dashboard](<img width="944" height="418" alt="Image" src="https://github.com/user-attachments/assets/8a21c022-80aa-40c5-b472-0364727f5b4e" />)
+![Dashboard](<"https://github.com/user-attachments/assets/8a21c022-80aa-40c5-b472-0364727f5b4e" />)
 
 ### 📈 DSA Visualizer (Graphs, Sorting, Trees and more to be added)
 ![Visualizer_Preview1](<img width="933" height="489" alt="Image" src="https://github.com/user-attachments/assets/e74b96ba-50a9-40c8-9125-1ac84823bed6" />)
