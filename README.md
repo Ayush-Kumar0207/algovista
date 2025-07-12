@@ -21,8 +21,8 @@ AlgoVista is a full-stack web application that empowers developers to **visualiz
 [](<img width="914" height="482" alt="Image" src="https://github.com/user-attachments/assets/85079816-06f8-4e51-9336-151765a8e3be" />)
 
 ### 🤖 AI Coach & Sync Panel
-![AI Coach](<img width="932" height="477" alt="Image" src="https://github.com/user-attachments/assets/61e0af52-c853-4329-8bfb-cb56cc6869d1" />)
-(<img width="910" height="242" alt="Image" src="https://github.com/user-attachments/assets/e636073a-e640-4f67-9fe6-2b7593dfe174" />)
+![AI Coach_Preview1](<img width="932" height="477" alt="Image" src="https://github.com/user-attachments/assets/61e0af52-c853-4329-8bfb-cb56cc6869d1" />)
+![AI_Coach_Preview2](<img width="910" height="242" alt="Image" src="https://github.com/user-attachments/assets/e636073a-e640-4f67-9fe6-2b7593dfe174" />)
 ![Sync Panel](<img width="929" height="475" alt="Image" src="https://github.com/user-attachments/assets/4fc54b08-634b-4e2d-b37a-cd84a978377b" />)
 
 ### Practice Tracker
